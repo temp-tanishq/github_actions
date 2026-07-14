@@ -16,6 +16,6 @@ jobs:
 
         - name: System Info
           run: |
-            unmane -a
+            uname -a
             sw_vars
             python3 --version || echo "Python not found"
