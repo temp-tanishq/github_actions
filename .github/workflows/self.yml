@@ -17,6 +17,5 @@ jobs:
         - name: System Info
           shell: powershell
           run: |
-            uname -a
             systeminfo
             python --version
